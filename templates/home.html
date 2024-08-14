@@ -1,0 +1,28 @@
+<h1>Enter Details for Sales Prediction</h1>
+<form action="/predict" method="post">
+  <label for="day">Day:</label> 
+  <input id="day" name="day" required="" type="number"> 
+  <br>
+  <br>
+  <label for="month">Month:</label> 
+  <input id="month" name="month" required="" type="number"> 
+  <br>
+  <br>
+  <label for="year">Year:</label> 
+  <input id="year" name="year" required="" type="number"> 
+  <br>
+  <br>
+  <label for="station">Station:</label>
+  <select id="station" name="station" required="">
+    <option value="POINT DE VENTE SILIANA">POINT DE VENTE SILIANA</option>
+    <option value="POINT DE VENTE KEF">POINT DE VENTE KEF</option>
+    <option value="POINT DE VENTE SFAX">POINT DE VENTE SFAX</option>
+    <option value="POINT DE VENTE GAFSA">POINT DE VENTE GAFSA</option>
+    <option value="POINT DE VENTE TUNIS">POINT DE VENTE TUNIS</option>
+    <option value="POINT DE VENTE SOUSSE">POINT DE VENTE SOUSSE</option>
+    <option value="POINT DE VENTE NABEUL">POINT DE VENTE NABEUL</option>
+  </select>
+  <br>
+  <br>
+  <input type="submit" value="Predict">
+</form>
